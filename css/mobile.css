@@ -26,6 +26,7 @@ html {
 
 .landing__image {
     width: 100%;
+    max-height: 40rem;
     object-fit: cover;
 }
 

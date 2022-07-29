@@ -2,7 +2,9 @@
     .main__landing {
         height: 100vh;
         display: grid;
+        grid-template-rows: 7rem 1fr;
         grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
     }
 
     .landing__logo {
@@ -13,12 +15,16 @@
 
     .landing__content {
         max-width: 40rem;
-        margin: 0 auto;
+        margin: 2rem auto 0 auto;
+    }
+
+    .landing__picture {
+        grid-area: 1 / 2 / 3 / 3;
     }
 
     .landing__image {
-        height: 100%;
-        grid-area: 1 / 2 / 3 / 3;
+        height: 100vh;
+        max-height: 100%;
     }
 
 }
