@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang ="es">
+
+    <head>
+        <meta charset ="UTF-8">
+        <title>YelpCamp</title>
+        <meta name ="description" content ="YelpCamp clone, desarrollo web, proyecto de practica, html y css">
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+        <meta name ="robots" content ="index, follow">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500;700&display=swap" rel="stylesheet">
+        <link rel ="stylesheet" href ="./css/mobile.css">
+        <link rel ="stylesheet" media ="screen and (min-width: 624px)" href ="./css/table.css">
+        <link rel ="stylesheet" media ="screen and (min-width: 1024px)" href ="./css/desktop.css">
+    </head>
+
+    <body>
+        <main class ="main__landing">
+            <figure class ="landing__logo">
+                <img class ="logo" src ="./assets/Logo.svg" alt ="Logo de la YelpCamp" loading = "lazy">
+            </figure>
+            <picture>
+                <source media ="(min-width: 1024px)" srcset ="./assets/hero_desktop.jpg">
+                <img class ="landing__image" src ="./assets/hero_mobile.jpg" alt ="Foto de un campamento">
+            </picture>
+            <div class ="landing__content">
+                <h1 class ="landing__title">Explore the best camps on Earth.</h1>
+                <p class ="landing__subtitle">
+                    YelpCamp i a curated list of the best compaing spots on Earth. Unfiltered and
+                    unbiased reviews.
+                </p>
+                <ul class ="landing__list">
+                    <img src ="./assets/Checkmark.svg" alt ="">
+                    <img src ="./assets/Checkmark.svg" alt ="">
+                    <img src ="./assets/Checkmark.svg" alt ="">
+                    <li>Add your own camp suggestions</li>
+                    <li>Leave reviews and experiences</li>
+                    <li>See locations for all camps</li>
+                </ul>
+                <button class ="button--primary">View Campgrounds</button>
+                <h3 class ="landing__partnered">Partnered with:</h3>
+                <figure class ="landing__partnered--images">
+                    <img src ="./assets/Airbnb.svg" alt ="Logo de Airbnb">
+                    <img src ="./assets/Booking.svg" alt ="Logo de Booking">
+                    <img class ="partenered__plum" src ="./assets/Plum Guide.svg" alt ="Logo de PlumGuide">
+                </figure>
+            </div>
+        </main>
+    </body>
+
+</html>

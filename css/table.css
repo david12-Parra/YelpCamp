@@ -1,0 +1,10 @@
+@media (min-width: 624px){
+    .landing__content {
+        width: 50rem;
+        padding-left: 3rem;
+    }
+
+    .landing__title {
+        font-size: 3.8rem;
+    }
+}

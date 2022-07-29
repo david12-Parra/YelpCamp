@@ -1,0 +1,24 @@
+@media (min-width: 1024px){
+    .main__landing {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .landing__logo {
+        width: 40rem;
+        margin: 0 auto;
+        padding-left: 3rem;
+    }
+
+    .landing__content {
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+
+    .landing__image {
+        height: 100%;
+        grid-area: 1 / 2 / 3 / 3;
+    }
+
+}
