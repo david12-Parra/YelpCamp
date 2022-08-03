@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang ="es">
+
+    <head>
+        <meta charset ="UTF-8">
+        <title>YelpCamp</title>
+        <meta name ="description" content ="YelpCamp clone, desarrollo web, proyecto de practica, html y css">
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+        <meta name ="robots" content ="index, follow">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500;700&display=swap" rel="stylesheet">
+        <link rel ="stylesheet" href ="./css/mobile.css">
+        <link rel ="stylesheet" media ="screen and (min-width: 624px)" href ="./css/table.css">
+        <link rel ="stylesheet" media ="screen and (min-width: 1024px)" href ="./css/desktop.css">
+    </head>
+
+    <body class ="body__sites">
+        
+        <header>
+            <nav class ="navbar__campground">
+                <div class ="navbar__campground navbar__campground--left navbar__campground--left-ubication">
+                    <a href =""><img src ="./assets/Logo.svg" alt ="Logo de YelpCamp" loading = "lazy"></a>
+                    <a class ="campground__left--alink" href ="">Home</a>
+                </div>
+                <figure class ="navbar__menu">
+                    <a href =""><img src ="./assets/menu.svg" alt ="icono de menu" loading = "lazy"></a>
+                </figure>
+                <ul class ="navbar__campground--right">
+                    <li><a href ="">Jonhdoe</a></li>
+                    <li><a href ="">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class ="main__sites">
+            <article class ="sites__card sites__card--search">
+                <div class ="sites__card--search--size">
+                    <h1 class ="landing__title size__title">Welcome to YelpCamp!</h1>                   
+                    <form>
+                        <label class ="sites__form" for ="search">
+                            <p class ="sites__content sites__content--color-text sites__form--content">
+                                View out hand-picked campgrounds form all over the world, or add your own.
+                            </p>
+                            <div class ="sites__search">
+                                <img class ="search__image" src ="./assets/Search Icon.svg" alt ="icono de buscar">
+                                <input class ="search__input" type ="text" id = "search" placeholder ="Search for camps">
+                            </div>
+                            <input class ="button--primary button--width sites__button" type ="submit" value ="Search">
+                        </label>
+                    </form>
+                <a class ="alink--decoration" href ="">Or add your own campground</a>
+                </div>
+            </article>
+            <article class ="sites__card">
+                <a href ="">
+                    <img class ="sites__image" src ="./assets/Camp Images/Compressed Images/Mount Ulap.jpg" alt ="">
+                    <h2 class ="card__title card__title--margin-top">Mount Ulap</h2>
+                    <p class ="sites__content">One of the most famous hikes in Benguet is Mt Ulap in itogon</p>
+                </a>
+                <button class ="button--primary button--primary--background">View Campground</button>
+            </article>
+            <article class ="sites__card">
+                <a href ="">
+                    <img class ="sites__image" src ="./assets/Camp Images/Compressed Images/Calaguas Island.jpg" alt ="">
+                    <h2 class ="card__title card__title--margin-top">Calaguas islands</h2>
+                    <p class ="sites__content">A paradise of islands thar can rival the white sand beauty or Boracay</p>
+                </a>
+                <button class ="button--primary button--primary--background">View Campground</button>
+            </article>
+            <article class ="sites__card">
+                <a href ="">
+                    <img class ="sites__image" src ="./assets/Camp Images/Compressed Images/Onay Beach.jpg" alt ="">
+                    <h2 class ="card__title card__title--margin-top">Onay Beach</h2>
+                    <p class ="sites__content">This in one of the best beach camping sites, beatiful and pristine.</p>
+                </a>
+                <button class ="button--primary button--primary--background">View Campground</button>
+            </article>
+            <article class ="sites__card">
+                <a href ="">
+                    <img class ="sites__image" src ="./assets/Camp Images/Compressed Images/Seven Sisters Waterfall.jpg" alt ="">
+                    <h2 class ="card__title card__title--margin-top">Seven Sisters Waterfall</h2>
+                    <p class ="sites__content">The seven Sisters is the 39th tallest waterfall in Norway</p>
+                </a>
+                <button class ="button--primary button--primary--background">View Campground</button>
+            </article>
+            <article class ="sites__card">
+                <a href ="">
+                    <img class ="sites__image" src ="./assets/Camp Images/Compressed Images/Latik Riverside.jpg" alt ="">
+                    <h2 class ="card__title card__title--margin-top">Latik Riversida</h2>
+                    <p class ="sites__content">Philippines is one of the most dazzling countries in all of Asia</p>
+                </a>
+                <button class ="button--primary button--primary--background">View Campground</button>
+            </article>
+            <article class ="sites__card">
+                <a href ="">
+                    <img class ="sites__image" src ="./assets/Camp Images/Compressed Images/Buloy Springs.jpg" alt ="">
+                    <h2 class ="card__title card__title--margin-top">Buloy</h2>
+                    <p class ="sites__content">This is one og the best beach camping sites, beatiful and pristine</p>
+                </a>
+                <button class ="button--primary button--primary--background">View Campground</button>
+            </article>
+        </main>
+
+        <footer>
+            <figure class ="landing__logo sites__footer">
+                <a href =""><img class ="logo" src ="./assets/Logo.svg" alt ="Logo de la YelpCamp" loading = "lazy"></a>
+            </figure>
+        </footer>
+
+    </body>
+
+</html>

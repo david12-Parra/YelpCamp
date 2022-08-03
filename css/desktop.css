@@ -27,4 +27,96 @@
         max-height: 100%;
     }
 
+    /*              ADD NEW COMPRGROUND             */
+    .navbar__menu {
+        display: none;
+    }
+    
+    .navbar__campground {
+        padding: 0 8rem;
+    }
+
+    .navbar__campground--left, .navbar__campground--right {
+        padding: 0;
+        column-gap: 2rem;
+    }
+
+    .navbar__campground--right, .campground__left--alink {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .navbar__campground--right > li:first-child > a {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .main__campground {
+        margin: 0 auto;
+    }
+
+    .campground__footer {
+        margin: 0;
+        padding-left: 8rem;
+    }
+
+    /*              ADD NEW COMMENT             */
+    .main__comment {
+        margin: 0 auto;
+    }
+
+    .comment__footer {
+        margin: 0;
+        padding-left: 8rem;
+    }
+
+    /*              UBICATION               */
+    .main__ubication {
+        max-width: none;
+        padding: 0 8rem;
+        display: grid;
+        column-gap: 4rem;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .ubication__card--first {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .ubication__card--second {
+        grid-area: 2 / 2 / 3 / 3;
+        display: grid;
+    }
+
+    .button--primary--display {
+        justify-self: end;
+    }
+
+    .ubication__card--third {
+        height: max-content;
+        padding: 2rem;
+    }
+
+    .ubication__footer {
+        width: 100%;
+        max-width: none;
+        padding: 0 8rem;
+    }
+
+    /*              SITES               */
+    .main__sites {
+        padding: 0 8rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sites__card--search {
+        grid-area: 1 / 1 / 2 / 4;
+    }
+
+    .sites__footer {
+        width: 100%;
+        padding: 0 8rem;
+    }
+
+
 }

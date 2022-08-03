@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang ="es">
+
+    <head>
+        <meta charset ="UTF-8">
+        <title>Add new Campground</title>
+        <meta name ="description" content ="YelpCamp clone, desarrollo web, proyecto de practica, html y css">
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+        <meta name ="robots" content ="index, follow">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500;700&display=swap" rel="stylesheet">
+        <link rel ="stylesheet" href ="./css/mobile.css">
+        <link rel ="stylesheet" media ="screen and (min-width: 624px)" href ="./css/table.css">
+        <link rel ="stylesheet" media ="screen and (min-width: 1024px)" href ="./css/desktop.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <nav class ="navbar__campground">
+                <div class ="navbar__campground navbar__campground--left">
+                    <a href =""><img src ="./assets/Logo.svg" alt ="Logo de YelpCamp"></a>
+                    <a class ="campground__left--alink" href ="">Home</a>
+                </div>
+                <figure class ="navbar__menu">
+                    <a href =""><img src ="./assets/menu.svg" alt ="icono de menu"></a>
+                </figure>
+                <ul class ="navbar__campground--right">
+                    <li><a href ="">Jonhdoe</a></li>
+                    <li><a href ="">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class ="main__campground">
+            <h1 class ="campground__title">Add new Campground</h1>
+            <form class ="campground__form">
+                <label class ="form__label" for ="name">
+                    <span>Campground Name</span>
+                    <input class ="form__input" type ="text" id ="name" placeholder ="Seven Sisters Waterfall">
+                </label>
+                <label class ="form__label" for ="price">
+                    <span>Price</span>
+                    <input class ="form__input" type ="text" id ="price" placeholder ="$149">
+                </label>
+                <label class ="form__label" for ="image">
+                    <span>Image</span>
+                    <input class ="form__input" type ="text" id ="image" placeholder ="www.image">
+                </label>
+                <label class ="form__label form__label--last" for ="description">
+                    <span>Description</span>
+                    <p class ="form__label--description">
+                        The Seven Sisters in the 39th tallest waterfall in Norwar. The 4120-metre tall waterfall
+                        consists of seven separate streams, and the tallest of the seven has a free fall that measures
+                        250 metres. The waterfall is located along the Geirangerfden in Stranda Municipality
+                        in More og Romsdal county, Norway.
+                    </p>
+                </label>
+                <button class ="button--primary">Add Campground</button>
+            </form>
+        </main>
+        <footer>
+            <figure class ="landing__logo campground__footer">
+                <a href =""><img class ="logo" src ="./assets/Logo.svg" alt ="Logo de la YelpCamp" loading = "lazy"></a>
+            </figure>
+        </footer>
+
+    </body>
+
+</html>

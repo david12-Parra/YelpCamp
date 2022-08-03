@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang ="es">
+
+    <head>
+        <meta charset ="UTF-8">
+        <title>YelpCamp</title>
+        <meta name ="description" content ="YelpCamp clone, desarrollo web, proyecto de practica, html y css">
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+        <meta name ="robots" content ="index, follow">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500;700&display=swap" rel="stylesheet">
+        <link rel ="stylesheet" href ="./css/mobile.css">
+        <link rel ="stylesheet" media ="screen and (min-width: 624px)" href ="./css/table.css">
+        <link rel ="stylesheet" media ="screen and (min-width: 1024px)" href ="./css/desktop.css">
+    </head>
+
+    <body class ="body__ubication">
+        
+        <header>
+            <nav class ="navbar__campground">
+                <div class ="navbar__campground navbar__campground--left navbar__campground--left-ubication">
+                    <a href =""><img src ="./assets/Logo.svg" alt ="Logo de YelpCamp" loading = "lazy"></a>
+                    <a class ="campground__left--alink" href ="">Home</a>
+                </div>
+                <figure class ="navbar__menu">
+                    <a href =""><img src ="./assets/menu.svg" alt ="icono de menu" loading = "lazy"></a>
+                </figure>
+                <ul class ="navbar__campground--right">
+                    <li><a href ="">Jonhdoe</a></li>
+                    <li><a href ="">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class ="main__ubication">
+            <article class ="ubication__card ubication__card--first">
+                <a href ="">
+                    <img class ="card__img" src ="./assets/Camp Images/Compressed Images/Mount Ulap.jpg" alt ="" loading ="lazy">    
+                    <div class ="card__title--top">
+                        <h1 class ="card__title">Mount Ulap</h1>
+                        <p class ="card__subtitle">$104.99/night</p>
+                    </div>
+                    <p class ="card__content">
+                        Mount Ulap is a 7.7 Kilometer moderately traffickes point-to-point trail located near Tuba, Benguet,
+                        Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarity
+                        used for hiking.
+                    </p>
+                    <p class ="card__content--bottom">Submited by Andrew Mike</p>
+                </a>
+            </article>
+            <article class ="ubication__card ubication__card--second">
+                <section class ="card__content--articles">
+                    <a href ="">
+                        <div class ="card__title--top">
+                            <h1 class ="card__title card__title--size">Adam Jone</h1>
+                            <span class ="card__subtitle card__subtitle--size">13h ago</span>
+                        </div>
+                        <p class ="card__content">
+                            Honestly one of the best experiences ever, took us a while to figure out how to get there but is was
+                            amazing!
+                        </p>
+                    </a>
+                </section>
+                <section class ="card__content--articles">
+                    <a href ="">
+                        <div class ="card__title--top">
+                            <h1 class ="card__title card__title--size">Isaac Dylan</h1>
+                            <span class ="card__subtitle card__subtitle--size">1 day ago</span>
+                        </div>
+                        <p class ="card__content">
+                            Traveling changes you as a person, you again more perspective, this is the perefect spot to do that.
+                        </p>
+                    </a>
+                </section>
+                <section class ="card__content--articles">
+                    <a href ="">
+                        <div class ="card__title--top">
+                            <h1 class ="card__title card__title--size">Hudson Luca</h1>
+                            <span class ="card__subtitle card__subtitle--size">3 days ago</span>
+                        </div>
+                        <p class ="card__content">
+                            Definitely recommed goig there, not too far and not a lot of people to ruin the experience.
+                        </p>
+                    </a>
+                </section>
+                <button class ="button--primary button--primary--display">
+                    <img src ="./assets/Chat Bubble.svg" alt ="" loading ="lazy">
+                    <span>Leave a Review</span>
+                </button>
+            </article>
+            <article class ="ubication__card ubication__card--third">
+                <a href ="">
+                    <img class ="ubication__card--image" src ="./assets/Map.png" alt ="Localizacion desde google maps" loading ="lazy">
+                </a>
+            </article>
+        </main>
+
+        <footer>
+            <figure class ="landing__logo ubication__footer">
+                <a href =""><img class ="logo" src ="./assets/Logo.svg" alt ="Logo de la YelpCamp" loading = "lazy"></a>
+            </figure>
+        </footer>
+
+    </body>
+
+</html>
